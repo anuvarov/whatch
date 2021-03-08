@@ -30,7 +30,7 @@ h1 {
     }
 }
 
-@media (max-width: 570px){
+@media (max-width: 575px){
     h1 {
         font-size: 55px;
     }
@@ -57,5 +57,29 @@ h1 {
 @media (max-width: 390px){
     h1 {
         font-size: 35px;
+    }
+}
+
+@media (max-width: 350px){
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 320px){
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 285px){
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 250px){
+    h1 {
+        font-size: 18px;
     }
 }
