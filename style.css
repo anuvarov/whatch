@@ -1,0 +1,61 @@
+body {
+    background: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    display: inline;
+    float: left;
+    font-size: 170px;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    letter-spacing: 6px;
+}
+
+@media (max-width: 650px){
+    h1 {
+        font-size: 65px;
+    }
+}
+
+@media (max-width: 600px){
+    h1 {
+        font-size: 60x;
+    }
+}
+
+@media (max-width: 570px){
+    h1 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 500px){
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 462px){
+    h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 425px){
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 390px){
+    h1 {
+        font-size: 35px;
+    }
+}
